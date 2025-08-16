@@ -1,0 +1,138 @@
+body {
+  background: red !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #ffcc00;
+}
+
+nav a {
+  color: #ffffff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+main {
+  padding: 2rem;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#myForm {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+#myForm form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+#myForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#myForm button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#myForm button:hover {
+  background-color: #ffaa00;
+}
+
+#myTableDiv {
+  overflow-x: auto;
+}
+
+#myTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#myTable th,
+#myTable td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+
+#myTable th {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 15px;
+  color: #ffcc00;
+  margin-top: auto;
+}
+
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#menu div {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+#menu img {
+  max-width: 100%;
+  border-radius: 10px;
+}
