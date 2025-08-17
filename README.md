@@ -1,5 +1,6 @@
 # Crazy Meal Lab
 
+[Crazy-Meal](https://github.com/Duha97/Crazy-Meal)
 ------------
 
 >> How many hours did it take you to finish the assigment?
